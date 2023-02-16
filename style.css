@@ -1,0 +1,311 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background: black;
+}
+
+/*========================= CSS for Navbar ===========================================*/
+.mynav{
+	margin:16px;
+	color:white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 700;
+}
+.mynav:hover{
+	margin:16px;
+	color:white;
+	text-decoration: none;
+	font-size: 15px;
+}
+/*======================================= CSS for Video Bg =====================================*/
+
+.bg{
+	position:relative;
+	width: 100%;
+}
+.bg-div{
+	height: 100vh;
+	overflow: hidden;
+}
+.bg-text{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+}
+.bg-btn{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+/*==================================== CSS for Section1 ======================================================*/
+
+.para-career{
+position: relative;
+border: 4px solid #c3cc00;
+}
+.heading-career{
+position: absolute;
+background-color: gray;
+top: -25px;
+left:-6px;
+padding: 10px;
+background-color: #323b41;
+}
+.icon-career{
+position: absolute;
+background-color:#c3cc00 ;
+border-radius: 100%;
+top: -25px;
+right: -25px;
+width: 70px;
+padding: 5px;
+}
+
+.bg-career{
+	background-color: #323b41;
+}
+
+.btn-career{
+	margin-top: 100px;
+}
+
+/*=================================== CSS for Headings & Paragraph ========================================*/
+
+.heading{
+	font-size: 70px;
+	font-weight: 600;
+	color: white;
+}
+.heading1{
+	font-size: 30x;
+	font-weight: 600;
+	color: white;
+}
+.heading2{
+	font-size: 25x;
+	font-weight: 500;
+	color: white;
+}
+
+.paragraph{
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+}
+.paragraph1{
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+}
+
+@media screen and (max-width:992px){
+   .heading{
+   	font-size: 30px;
+   	font-weight: 500;
+   }
+   .heading1{
+   	font-size: 18px;
+   	font-weight: 500;
+   }
+   .heading2{
+   	font-size: 16px;
+   	font-weight: 500;
+   }
+
+   .paragraph{
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+}
+.paragraph1{
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+}
+}
+
+/*===========================CSS for Buttons =========================================*/
+
+.btn1{
+	background-color: #c3cc00;
+	color: black;
+	display: inline;
+	text-decoration: none;
+	padding: 12px 30px;
+	border-radius: 5px;
+}
+.btn1:hover{
+	color: black;
+}
+.btn2{
+	background-color:transparent;
+	color:white;
+	text-decoration: none;
+	padding: 12px 20px;
+	border-radius: 5px;
+	border: 2px solid #c3cc00;
+	font-weight: 600;
+}
+.btn2:hover{
+	color: white;
+	background-color:#c3cc00 ;
+}
+/*======================= CSS for Section2 ==============================================*/
+
+.bg-sec2{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('eggs/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 70vh;
+	position: relative;
+}
+
+.row-sec2{
+	position: absolute;
+	top: 30% ;
+	left: 8%;
+}
+
+.sec2-border{
+	margin-top:8%;
+	height: 9px ;
+	width:30%;
+	background-color: #c3cc00;
+}
+
+/*================================= CSS for Section3 =======================================*/
+.bg-sec3-1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('eggs/SERVICES.jpg');
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 90vh;
+}
+.bg-sec3-2{
+    background-image:url('eggs/sec3banner.png');
+    background-color: white;
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 90vh;
+}
+.bg-sec3{
+  position:absolute;
+  background-color: #5a6670;
+  top: 20%;
+  left: 27%;
+}
+.sec3-text{
+	position:absolute;
+	z-index: 500;
+	top: 10%;
+     left: 27%;
+}
+
+/*================================= CSS for Section4 =======================================*/
+
+.sec4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('eggs/GET A QUOTE.jpg');
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+ .sec4 div{
+ 	position: absolute;
+ 	top: 40%;
+ 	left: 10%;
+ }
+
+/*============================== CSS for Form ================================================*/
+.form-bg{
+	background-color: #323b41;
+}
+.title{
+	color: lightgray;
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  padding: 60px;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  line-height: 48px;
+  padding-bottom: 48px;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 4px 0;
+  border-color:lightgray;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  background-color: transparent;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color:lightgray;
+  cursor: pointer;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  width:200px;
+}
+
+/*===================================== Section 5 ==============================*/
+
+.bg-sec5{
+	background-color: black;
+}
+
+.bg-8{
+	height: 60vh;
+	 background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('eggs/8.svg');
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 20%;
+}
+
+.fa-phone , .fa-brands{
+	font-size: 30px;
+	color: white;
+}
